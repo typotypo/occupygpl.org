@@ -12,27 +12,7 @@
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 
 
-<div class="occupynavbar navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <a class="navbar-brand" href="#">Occupy GPL!</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="#mission">Mission</a></li>
-                <li><a href="#manifesto">Manifesto</a></li>
-                <li><a href="#jointhefight">Join the Fight!</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
+{% include navbar.html %}
 
 <div id="mission" class="jumbotron">
     <div class="container-fluid head">
@@ -42,69 +22,9 @@
     </div>
 </div>
 
-<section id="manifesto" class="osection">
-    <div class="container-fluid">
-        <h1>The Manifesto</h1>
-        <p>
-            <strong>Blah blah GPL is crap.</strong> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-        <img src="img/manifesto-hr.png" class="manifesto-hr img-responsive" />
-        <h4>Our Goal: Lorem ipsum dolor sit amet, consetetur sadipscing elitr!</h4>
-        <img src="img/manifesto-hr.png" class="manifesto-hr img-responsive" />
-        <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-    </div>
-</section>
-
-<section id="jointhefight" class="osection">
-    <div class="container-fluid">
-        <h1>Join the Fight!</h1>
-        <p>
-            Here are a few ways you can help rid the world of the GPL
-        </p>
-        <img src="img/join-hr.png" class="manifesto-hr img-responsive" />
-        <h2>Lorem ipsum!</h2>
-        <img src="img/join-hr.png" class="manifesto-hr img-responsive" />
-        <h2>Spread the Word!</h2>
-        <p>
-            Let people know about this site:
-        </p>
-        <div class="share-button-container">
-            <div class="share-button">
-                {% include twitter_button.html %}
-            </div>
-            <div class="share-button">
-                {% include gplus_button.html %}
-            </div>
-            <div class="share-button share-button-facebook">
-                {% include facebook_button.html %}
-            </div>
-            <div class="clear"></div>
-        </div>
-        <img src="img/join-hr.png" class="manifesto-hr img-responsive" />
-        <h2>Prefer open source projects with a liberal license!</h2>
-        <p>
-            Lorem ipsum dolor sit amet!
-        </p>
-        <img src="img/join-hr.png" class="manifesto-hr img-responsive" />
-        <h2>(Re-)License your projects with a liberal license!</h2>
-        <p>
-            Lorem ipsum dolor sit amet!
-        </p>
-        <img src="img/join-hr.png" class="manifesto-hr img-responsive" />
-        <h2>Contact maintainer!</h2>
-        <p>
-            Lorem ipsum dolor sit amet!
-        </p>
-    </div>
-</section>
-
-<footer class="footer">
-    <div class="container-fluid">
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.</p>
-    </div>
-</footer>
+{% include manifesto.html %}
+{% include jointhefight.html %}
+{% include footer.html %}
 
 <script src="lib/jquery.min.js"></script>
 <script src="lib/bootstrap/js/bootstrap.min.js"></script>
