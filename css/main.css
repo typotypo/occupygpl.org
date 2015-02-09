@@ -43,6 +43,10 @@ body {
 .osection h2 {
     color: white;
     font-size: 48px;
+
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .osection h4 {
@@ -68,6 +72,9 @@ body {
 
 #manifesto {
     background-color: white;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
 
     -webkit-background-clip: border-box;
     -webkit-background-origin: padding-box;
@@ -148,9 +155,14 @@ body {
     font-size: 15px;
     height: 60px;
     text-align: center;
-    background-color: #f5f5f5;
+    background-color: #E74B47;
+    color: #DDD;
 
     padding-top: 20px;
 
     margin-top: 100px;
+}
+
+.footer a {
+    color: white;
 }
