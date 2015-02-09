@@ -3,6 +3,8 @@ body {
 
     background-image: url('../img/paper-gray.jpg');
     background-repeat: repeat-x repeat-y;
+
+    overflow-x: hidden;
 }
 
 .head {
@@ -136,6 +138,21 @@ ol li {
 
 #jointhefight h2 {
     padding-bottom: 80px;
+}
+
+#faq question {
+    font-size: 24px;
+    color: white;
+
+    display: block;
+
+    padding-top: 50px;
+}
+
+#faq answer {
+    font-size: 20px;
+
+    color: #E74B47;
 }
 
 strong {
