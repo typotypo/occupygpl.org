@@ -94,6 +94,20 @@ body {
     box-shadow: rgb(17, 17, 17) 0px 0px 40px 0px;
 }
 
+#manifesto p {
+    text-align: left;
+}
+
+ol {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol li {
+    text-align: left;
+}
+
 #jointhefight {
     -webkit-background-clip: border-box;
     -webkit-background-origin: padding-box;
