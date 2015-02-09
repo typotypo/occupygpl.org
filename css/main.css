@@ -100,13 +100,13 @@ body {
     text-align: left;
 }
 
-ol {
+ol, ul {
     max-width: 950px;
     margin-left: auto;
     margin-right: auto;
 }
 
-ol li {
+ol li, ul li {
     text-align: left;
 }
 
@@ -138,6 +138,29 @@ ol li {
 
 #jointhefight h2 {
     padding-bottom: 80px;
+}
+
+#licenses {
+    color: white;
+    font-size: 20px;
+}
+
+#licenses h3 {
+    color: white !important;
+}
+
+desc {
+    display: block;
+
+    max-width: 600px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 18px;
+    color: #DDD;
+
+    margin-bottom: 20px;
 }
 
 #faq question {
