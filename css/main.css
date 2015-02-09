@@ -1,5 +1,8 @@
 body {
     position: relative;
+
+    background-image: url('../img/paper-gray.jpg');
+    background-repeat: repeat-x repeat-y;
 }
 
 .head {
@@ -14,8 +17,140 @@ body {
 
 .osection {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .osection h1 {
     font-size: 96px;
+    color: #E74B47;
+    margin-bottom: 30px;
+}
+
+.osection p {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.manifesto-hr {
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.osection h2 {
+    color: white;
+    font-size: 48px;
+}
+
+.osection h4 {
+    font-size: 64px;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+
+    background: none;
+}
+
+#mission h3 {
+    color: white;
+}
+
+#manifesto {
+    background-color: white;
+
+    -webkit-background-clip: border-box;
+    -webkit-background-origin: padding-box;
+    -webkit-background-size: auto;
+    -webkit-box-shadow: rgb(17, 17, 17) 0px 0px 40px 0px;
+    -moz-background-clip: border-box;
+    -moz-background-origin: padding-box;
+    -moz-background-size: auto;
+    -moz-box-shadow: rgb(17, 17, 17) 0px 0px 40px 0px;
+    -ms-background-clip: border-box;
+    -ms-background-origin: padding-box;
+    -ms-background-size: auto;
+    -ms-box-shadow: rgb(17, 17, 17) 0px 0px 40px 0px;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto;
+    box-shadow: rgb(17, 17, 17) 0px 0px 40px 0px;
+}
+
+#jointhefight {
+    -webkit-background-clip: border-box;
+    -webkit-background-origin: padding-box;
+    -webkit-background-size: auto;
+    -moz-background-clip: border-box;
+    -moz-background-origin: padding-box;
+    -moz-background-size: auto;
+    -ms-background-clip: border-box;
+    -ms-background-origin: padding-box;
+    -ms-background-size: auto;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto;
+
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-image: url('../img/hand.png') !important;
+    background-origin: padding-box;
+    background-size: auto;
+
+    color: white;
+    font-size: 24px;
+}
+
+.share-button-container {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 420px;
+}
+
+.share-button {
+    text-align: left;
+    float: left;
+    width: 100px;
+    height: 25px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    display: inline;
+
+    margin-bottom: 20px;
+}
+
+.share-button-facebook {
+    padding-top: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    height: 60px;
+    text-align: center;
+    background-color: #f5f5f5;
+
+    padding-top: 20px;
+
+    margin-top: 100px;
 }

@@ -1,3 +1,6 @@
 $(document).ready(function() {
-    $('body').scrollspy({ target: '.occupynavbar' })
+    $('body').scrollspy({
+        target: '.occupynavbar',
+        offset: 50
+    })
 });
