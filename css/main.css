@@ -1,0 +1,21 @@
+body {
+    position: relative;
+}
+
+.head {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.head img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.osection {
+    text-align: center;
+}
+
+.osection h1 {
+    font-size: 96px;
+}
