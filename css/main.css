@@ -178,6 +178,17 @@ desc {
     color: #E74B47;
 }
 
+#resources {
+    color: white;
+    font-size: 20px;
+}
+
+#resources ul {
+    max-width: 600px;
+
+    margin-top: 30px;
+}
+
 strong {
     color: #E74B47;
 }
