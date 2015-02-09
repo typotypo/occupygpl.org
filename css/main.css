@@ -124,11 +124,15 @@ body {
     padding-bottom: 80px;
 }
 
+strong {
+    color: #E74B47;
+}
+
 .share-button-container {
     margin-left: auto;
     margin-right: auto;
 
-    width: 420px;
+    width: 330px;
 }
 
 .share-button {
@@ -137,8 +141,8 @@ body {
     width: 100px;
     height: 25px;
 
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
 
     display: inline;
 
